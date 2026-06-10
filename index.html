@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИНТЕРКАР — продажа авто</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="#home" class="site-logo">
+        <img src="SiteIMG/logo.png" alt="ИНТЕРКАР">
+    </a>
+
+    <nav class="site-nav">
+        <a href="#home" class="active">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#cars">Авто</a>
+        <a href="#calculator">Калькулятор</a>
+        <a href="#tech">Отзывы</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="home" class="hero">
+        <div class="hero-shade"></div>
+
+        <div class="hero-content">
+            <p class="hero-label">Премиальный автоподбор</p>
+
+            <h1>
+                Автомобили под заказ
+                <span>с полным сопровождением</span>
+            </h1>
+
+            <p class="hero-description">
+                Подбор, проверка, доставка и оформление автомобилей из Китая, Кореи, Киргизии и Японии.
+            </p>
+
+            <a href="#cars" class="hero-button">
+                Смотреть авто
+                <span>→</span>
+            </a>
+
+            <div class="hero-features">
+                <div class="hero-feature">
+                    <div class="feature-icon">
+                        <i data-lucide="car-front"></i>
+                    </div>
+                    <h3>Подбор автомобиля</h3>
+                    <p>Найдём лучший вариант под ваш бюджет</p>
+                </div>
+
+                <div class="hero-feature">
+                    <div class="feature-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Проверка перед покупкой</h3>
+                    <p>Полная диагностика и проверка истории авто</p>
+                </div>
+
+                <div class="hero-feature">
+                    <div class="feature-icon">
+                        <i data-lucide="file-text"></i>
+                    </div>
+                    <h3>Полное оформление</h3>
+                    <p>Возьмём на себя все документы</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-statistics">
+
+            <div class="stat-box">
+                <div class="stat-icon">
+                    <i data-lucide="car-front"></i>
+                </div>
+                <div>
+                    <strong>100+</strong>
+                    <span>автомобилей привезено</span>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <div class="stat-icon">
+                    <i data-lucide="award"></i>
+                </div>
+                <div>
+                    <strong>4 года</strong>
+                    <span>опыта на рынке</span>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <div class="stat-icon">
+                    <i data-lucide="users"></i>
+                </div>
+                <div>
+                    <strong>98%</strong>
+                    <span>довольных клиентов</span>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <div class="stat-icon">
+                    <i data-lucide="headset"></i>
+                </div>
+                <div>
+                    <strong>24/7</strong>
+                    <span>мы всегда на связи</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="work-section">
+        <div class="work-container">
+            <p class="section-label">Процесс</p>
+            <h2>Как мы работаем</h2>
+            <p class="work-subtitle">
+                Прозрачный и понятный процесс от заявки до получения автомобиля
+            </p>
+
+            <div class="work-steps">
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>01</span>
+                        <div class="work-icon">
+                            <i data-lucide="message-square"></i>
+                        </div>
+                    </div>
+                    <h3>Заявка</h3>
+                    <p>Оставляете заявку и получаете бесплатную консультацию</p>
+                </div>
+
+                <div class="work-arrow">→</div>
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>02</span>
+                        <div class="work-icon">
+                            <i data-lucide="search"></i>
+                        </div>
+                    </div>
+                    <h3>Подбор</h3>
+                    <p>Подбираем лучшие варианты под ваш бюджет</p>
+                </div>
+
+                <div class="work-arrow">→</div>
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>03</span>
+                        <div class="work-icon">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+                    </div>
+                    <h3>Проверка</h3>
+                    <p>Проверяем историю, проводим осмотр и согласуем с вами</p>
+                </div>
+
+                <div class="work-arrow">→</div>
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>04</span>
+                        <div class="work-icon">
+                            <i data-lucide="file-text"></i>
+                        </div>
+                    </div>
+                    <h3>Оформление</h3>
+                    <p>Готовим все документы и заключаем договор</p>
+                </div>
+
+                <div class="work-arrow">→</div>
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>05</span>
+                        <div class="work-icon">
+                            <i data-lucide="ship"></i>
+                        </div>
+                    </div>
+                    <h3>Доставка</h3>
+                    <p>Доставляем автомобиль и проходим таможню</p>
+                </div>
+
+                <div class="work-arrow">→</div>
+
+                <div class="work-card">
+                    <div class="work-top">
+                        <span>06</span>
+                        <div class="work-icon">
+                            <i data-lucide="key-round"></i>
+                        </div>
+                    </div>
+                    <h3>Получение</h3>
+                    <p>Вы получаете автомобиль и документы</p>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="cars" class="cars-section">
+        <div class="cars-container">
+            <div class="cars-head">
+                <div>
+                    <p class="section-label">Каталог</p>
+                    <h2>Каталог автомобилей</h2>
+                    <p>Популярные автомобили, доступные к заказу</p>
+                </div>
+            </div>
+
+            <div class="cars-slider">
+                <button class="slider-btn slider-prev" type="button">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+
+                <div class="cars-track-wrapper">
+                    <div class="cars-track">
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car1.jpg" alt="Volkswagen Tayron">
+                            <div class="auto-info">
+                                <h3>Volkswagen Tayron</h3>
+                                <p>2022 · 27 000 км · 1.4 - 150 л.с. · Бензин </p>
+                                <strong>от 2 433 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car2.jpg" alt="Volkswagen Golf">
+                            <div class="auto-info">
+                                <h3>Volkswagen Golf</h3>
+                                <p>2022 · 34 000 км · 1.4 - 150 л.с. · бензин </p>
+                                <strong>от 1 942 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car3.jpg" alt="Hyundai Elantra">
+                            <div class="auto-info">
+                                <h3>Hyundai Elantra</h3>
+                                <p>2023 · 30 000 км · 1.5 - 115 л.с. · бензин</p>
+                                <strong>от 1 589 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car4.jpg" alt="GAC GS4">
+                            <div class="auto-info">
+                                <h3>GAC GS4</h3>
+                                <p>2022 · 22 634 км · 1.5 - 159 л.с. · бензин</p>
+                                <strong>от 1 708 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car5.jpg" alt="Nissan Frontier Pro">
+                            <div class="auto-info">
+                                <h3>Nissan Frontier Pro</h3>
+                                <p>2026 · 18 000 км · 2.0 - 245 л.с. · бензин</p>
+                                <strong>от 4 150 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car6.jpg" alt="Toyota Corolla">
+                            <div class="auto-info">
+                                <h3>Toyota Corolla</h3>
+                                <p>2025 · 33 000 км · 1.2 - 116 л.с. · бензин</p>
+                                <strong>от 1 429 148 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car7.jpg" alt="Skoda Superb">
+                            <div class="auto-info">
+                                <h3>Skoda Superb</h3>
+                                <p>2025 · 36 000 км · 1.4 - 150 л.с. · бензин</p>
+                                <strong>от 2 747 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car8.jpg" alt="BMW 320 Li">
+                            <div class="auto-info">
+                                <h3>BMW 320 Li</h3>
+                                <p>2022 · 55 000 км · 2.0 - 156 л.с. · бензин</p>
+                                <strong>от 2 838 996 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car9.jpg" alt="Audi Q3">
+                            <div class="auto-info">
+                                <h3>Audi Q3</h3>
+                                <p>2019 · 46 500 км · 1.4 - 150 л.с. · бензин</p>
+                                <strong>от 1 873 800 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car10.jpg" alt="BMW X1">
+                            <div class="auto-info">
+                                <h3>BMW X1</h3>
+                                <p>2020 · 16 000 км · 1.5 - 141 л.с. · бензин</p>
+                                <strong>от 2 255 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car11.jpg" alt="Jetour x70">
+                            <div class="auto-info">
+                                <h3>Jetour x70</h3>
+                                <p>2023 · 37 000 км · 1.5 - 156 л.с. · бензин</p>
+                                <strong>от 1 264 000 ₽</strong>
+                            </div>
+                        </article>
+
+                        <article class="auto-card">
+                            <img src="CardsIMG/car12.jpg" alt="Mazda CX-5">
+                            <div class="auto-info">
+                                <h3>Mazda CX-5</h3>
+                                <p>2026 · 7 000 км · 2.0 - 155 л.с. · бензин</p>
+                                <strong>от 2 539 000 ₽</strong>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <button class="slider-btn slider-next" type="button">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="calculator-section">
+        <div class="calculator-container">
+
+            <div class="calculator-info">
+                <p class="section-label">Расчёт стоимости</p>
+                <h2>Калькулятор примерной стоимости</h2>
+                <p>
+                    Введите стоимость автомобиля на зарубежном рынке.
+                    Калькулятор покажет примерный расчёт с доставкой, пошлиной,
+                    утильсбором, оформлением и комиссией компании.
+                </p>
+
+                <div class="external-calculator">
+                    <span>Точную стоимость можно посчитать тут:</span>
+
+                    <a href="https://www.tks.ru/auto/calc/" target="_blank">
+                        Открыть точный калькулятор
+                        <i data-lucide="external-link"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="calculator-card">
+                <label for="carPrice">Цена авто за рубежом</label>
+
+                <div class="price-input-wrap">
+                    <input
+                        type="text"
+                        id="carPrice"
+                        placeholder="Например: 4 000 000"
+                    />
+                    <span>₽</span>
+                </div>
+
+                <button class="calculate-button" type="button">
+                    Рассчитать стоимость
+                    <i data-lucide="calculator"></i>
+                </button>
+
+                <div class="calc-result" id="calcResult">
+
+                    <div class="calc-row">
+                        <span>Стоимость авто</span>
+                        <strong id="basePrice">0 ₽</strong>
+                    </div>
+
+                    <div class="calc-row">
+                        <span>Расходы в стране отправления</span>
+                        <strong id="deliveryPrice">0 ₽</strong>
+                    </div>
+
+                    <div class="calc-row">
+                        <span>Расходы в РФ</span>
+                        <strong id="dutyPrice">0 ₽</strong>
+                    </div>
+
+                    <div class="calc-row">
+                        <span>Комиссия компании</span>
+                        <strong id="recyclePrice">0 ₽</strong>
+                    </div>
+
+                    <div class="calc-total">
+                        <span>Примерная итоговая цена</span>
+                        <strong id="totalPrice">0 ₽</strong>
+                    </div>
+
+                    <p class="calc-note">
+                        Утильсбор, доставка по территории РФ и таможенная пошлина
+                        рассчитываются индивидуально и не входят в итоговую стоимость.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="tech" class="reviews-section">
+        <div class="reviews-container">
+
+            <div class="reviews-head">
+                <p class="section-label">Отзывы</p>
+                <h2>Нашу работу оценивают так</h2>
+            </div>
+
+            <div class="reviews-grid">
+
+                <article class="review-card">
+                    <div class="quote">“</div>
+                    <p>
+                        Давно хотел взять тигуан, заказал у ребят из Интеркар, все объяснили,
+                        помогли с документами, все взяли на себя, доставили быстро, по цене вообще отлично,
+                        спасибо менеджеру Роману.
+                    </p>
+
+                    <div class="review-author">
+                        <img src="SiteIMG/client1.png" alt="Дмитрий">
+                        <div>
+                            <strong>Дмитрий</strong>
+                            <span>Москва</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="quote">“</div>
+                    <p>
+                        Обратился к специалистам этой компании, все четко, быстро, без лишней мороки
+                        помогли и с выбором и с доставкой, очень подкованный в теме специалист Антон все разжевал - 
+                        как будет происходить оплата, доставка, страховка и тд. Большое спасибо!
+                    </p>
+
+                    <div class="review-author">
+                        <img src="SiteIMG/client2.png" alt="Test">
+                        <div>
+                            <strong>Алексей</strong>
+                            <span>Ростов</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="quote">“</div>
+                    <p>
+                        Очень быстрый и классный сервис у компании, вторую машину в семью жене обязательно буду брать
+                        у них же.
+                    </p>
+
+                    <div class="review-author">
+                        <img src="SiteIMG/client3.png" alt="Test">
+                        <div>
+                            <strong>Владислав</strong>
+                            <span>Уфа</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+
+            <div class="payment-block">
+                <div class="payment-head">
+                    <p class="section-label">Оплата и кредит</p>
+                    <h2>В ИНТЕРКАР вы можете оплатить автомобиль по более выгодному курсу</h2>
+                    <p>
+                        Оплата проходит официально через банк. После оплаты вы получаете все необходимые документы
+                        для дальнейшего оформления автомобиля.
+                    </p>
+                </div>
+
+                <div class="payment-content">
+                    <div class="payment-card payment-process">
+                        <h3>Как проходит оплата</h3>
+
+                        <div class="payment-steps">
+                            <div>
+                                <span>01</span>
+                                <p>Вы получаете инвойс на автомобиль</p>
+                            </div>
+
+                            <div>
+                                <span>02</span>
+                                <p>Оплачиваете счёт по QR-коду</p>
+                            </div>
+
+                            <div>
+                                <span>03</span>
+                                <p>Оплата проходит через приложение банка</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-card payment-countries">
+                        <h3>Доступные варианты оплаты</h3>
+
+                        <div class="country-grid">
+                            <div>
+                                <strong>🇯🇵 Япония</strong>
+                                <span>SWIFT и АТБ</span>
+                            </div>
+
+                            <div>
+                                <strong>🇰🇷 Корея</strong>
+                                <span>SWIFT</span>
+                            </div>
+
+                            <div>
+                                <strong>🇨🇳 Китай</strong>
+                                <span>ВТБ</span>
+                            </div>
+
+                            <div>
+                                <strong>🇰🇬 Киргизия</strong>
+                                <span>СБЕР или ВТБ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-bottom">
+                    <div class="bank-info">
+                        <h3>Подходящие банки</h3>
+                        <p>Сбер, Т-Банк, ВТБ и АТБ</p>
+                    </div>
+
+                    <div class="credit-info">
+                        <h3>Кредит на покупку автомобиля</h3>
+                        <p>
+                            ИНТЕРКАР предоставляет возможность получить кредит на покупку любого автомобиля.
+                            Работаем с 20 банками РФ. Одобрение по двум документам.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="order-banner">
+                <div class="order-content">
+                    <h3>Готовы заказать автомобиль вашей мечты?</h3>
+                    <p>Позвоните или напишите нам — подберём лучший вариант уже сегодня.</p>
+
+                    <a href="tel:+79774751145" class="order-button">
+                        Позвоните нам: +7 977 475-11-45
+                    </a>
+
+                    <div class="order-socials">
+
+                        <a href="https://t.me/intercarservice" aria-label="Telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+
+                        <a href="https://wa.me/79774751145" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://max.ru/join/TGKo_N8C627u2iw3hSfF6O3TTBiqvywMNFp9zhYNtUg" aria-label="MAX">
+                            <img src="SiteIMG/max.svg" alt="MAX">
+                        </a>
+
+                        <a href="https://www.instagram.com/intercar_service?igsh=YzBuZDRiZDRhc3p2" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-main">
+
+        <div class="footer-brand">
+            <img src="SiteIMG/logo.png" alt="ИНТЕРКАР">
+            <p>
+                Автомобили под заказ с полным сопровождением:
+                Китай, Корея и Европа.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="https://t.me/intercarservice" aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="https://wa.me/79774751145" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://max.ru/join/TGKo_N8C627u2iw3hSfF6O3TTBiqvywMNFp9zhYNtUg" aria-label="MAX">
+                    <img src="SiteIMG/max.svg" alt="MAX">
+                </a>
+
+                <a href="https://www.instagram.com/intercar_service?igsh=YzBuZDRiZDRhc3p2" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="footer-nav-block">
+            <h3>Навигация</h3>
+
+            <nav class="footer-nav">
+                <a href="#home">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#cars">Авто</a>
+                <a href="#calculator">Калькулятор</a>
+                <a href="#tech">Тех. блок</a>
+            </nav>
+        </div>
+
+        <div class="footer-contacts">
+            <h3>Связаться с нами</h3>
+
+            <a href="tel:+79244770784">
+                <span><i data-lucide="phone"></i></span>
+                +7 924 477-07-84
+                <b>24/7</b>
+            </a>
+            <a href="tel:+79774751145">
+                <span><i data-lucide="phone"></i></span>
+                +7 977 475-11-45
+                <b>24/7</b>
+            </a>
+
+            <a href="mailto:roman3roshenko@yandex.ru">
+                <span><i data-lucide="mail"></i></span>
+                roman3roshenko@yandex.ru
+            </a>
+
+            <p>
+                <span><i data-lucide="map-pin"></i></span>
+                Китай, Корея, Европа<br>
+                Доставка в любой регион
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Intercar. Все права защищены.</p>
+
+        <div class="footer-company-info">
+            <span>ИП Бочкарев А.Э.</span>
+            <span>ИНН 753615790127</span>
+            <span>ОГРНИП 322750000013591</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
